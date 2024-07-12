@@ -44,3 +44,25 @@ main{
    
 
 }
+
+#rede_social img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.603);
+    box-sizing: border-box;
+}
+
+
+#rede_social{
+    text-align: right;
+    padding-top: 3px;
+}
+
+#rede_social img:hover{
+    border: 3px solid rgba(128, 128, 128, 0.822);
+    transform: translate(-6px , -1px);
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.514);
+    transition: transform .8s;
+}
