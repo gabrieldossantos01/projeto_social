@@ -39,7 +39,7 @@ main{
     top: 80px;
     left: 22px;
     width: 268px;
-    height: 471px;
+    height: 469px;
    
    
 
@@ -55,7 +55,7 @@ main{
 }
 
 
-#rede_social{
+#rede_social {
     text-align: right;
     padding-top: 3px;
 }
@@ -63,6 +63,7 @@ main{
 #rede_social img:hover{
     border: 3px solid rgba(128, 128, 128, 0.822);
     transform: translate(-6px , -1px);
-    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.514);
     transition: transform .8s;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.514);
 }
+
